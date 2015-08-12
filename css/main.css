@@ -3,7 +3,7 @@ html,body {
 }
 
 .carousel {
-    height: 60%;
+    height:80%;
 }
 
 .item, .active, .carousel-inner{
