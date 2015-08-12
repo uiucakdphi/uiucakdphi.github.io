@@ -42,6 +42,9 @@ ul.posts li {
     list-style: none;
 }
 
+.nav{
+    padding:10px;
+}
 .carousel {
     height: 60%;
 }
