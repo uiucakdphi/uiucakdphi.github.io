@@ -19,7 +19,7 @@
 
   
   </head>
-  <body>
+  <body id="page-top">
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -64,7 +64,7 @@
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
+                <!-- Set the second background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('images/banner/banner5.jpg');"></div>
                 <div class="carousel-caption">
                 </div>
@@ -94,6 +94,48 @@
 
       </header>
 
+    <!--Number Infographic-->
+     <section id="numbers">
+        <div class="container">
+          <div class="row text-center">
+              <div class="col-md-3 text-center">
+                <div class="circle-wrapper">
+                  <div class="circle-text-center">
+                    <h3>5000</h3>
+                    <p>sisters</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 text-center">
+                <div class="circle-wrapper">
+                  <div class="circle-text-center">
+                    <h3>50</h3>
+                    <p>chapters</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 text-center">
+                <div class="circle-wrapper">
+                  <div class="circle-text-center">
+                    <h3>4</h3>
+                    <p>letters</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 text-center">
+                <div class="circle-wrapper">
+                  <div class="circle-text-center">
+                    <h3>1</h3>
+                   <p>sisterhood</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        <div>
+      </section>
+
+
+      <!--Welcome Message-->
       <section id="welcome">
         <div class="container">
           <div class="row">
@@ -110,13 +152,41 @@
         </div>
       </section>
 
-      <section id="numbers">
+
+      <!--News & Upcoming Events-->
+      <section id="news">
+        <div class="container">
+          <!--News-->
+          <div class="col-md-6">
+            <div class="circle-wrapper">
+            </div>
+          </div>
+          <!--Upcoming Events-->
+          <div class="col-md-6">
+            <div class="circle-wrapper">
+            </div>
+          </div>
+        </div> 
+      </section>
+
+      <footer>
         <div class="container">
           <div class="row">
-            <h2>αΚΔΦ by the Numbers</h2>
+        <div class="col-md-6">
+          <p>Copyright &copy; UIUC aKDPhi 2015. All rights reserved.</p>
+        </div>
+        <div class="col-md-6">
+          <address>
+              <ul class="company-social">
+                <li><a href="https://www.facebook.com/uiuc.akdphi" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                <li><a href="https://www.instagram.com/uiucakdphi" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+              </ul>
+            </address>
           </div>
-          <div>
-      </section>
+          </div>
+          </div>
+        </footer>
+
 
       <!-- jQuery -->
       <script src="js/jquery.js"></script>
@@ -130,5 +200,45 @@
         interval: 5000 //changes the speed
       })
       </script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+
+      <!--Stellar.js-->
+      <script>
+      $(window).stellar();
+      $.stellar.scrollProperty.margin = {
+  getLeft: function($element) {
+    return parseInt($element.css('margin-left'), 10) * -1;
+  },
+  getTop: function($element) {
+    return parseInt($element.css('margin-top'), 10) * -1;
+  }
+}
+$.stellar.positionProperty.position = {
+  setTop: function($element, newTop, originalTop) {
+    $element.css('top', newTop);
+  },
+  setLeft: function($element, newLeft, originalLeft) {
+    $element.css('left', newLeft);
+  }
+}
+      <div data-stellar-ratio="2">
+      <div data-stellar-background-ratio="0.5">
+      $.stellar({
+        horizontalOffset: 40,
+        verticalOffset: 150
+      });
+      $('#gallery').stellar({scrollProperty: 'transform'});
+
+      </script>
+
     </body>
 </html>
