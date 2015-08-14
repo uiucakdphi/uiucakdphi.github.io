@@ -1,0 +1,177 @@
+html,body {
+    height:100%;
+    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
+    font-size:18px;
+}
+
+header {
+	background-size: 100% 100%;
+    position: relative;
+    width:100%;
+    height:70%;
+    background:url(../images/about/about.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.navbar-custom {
+    margin: 0px;
+    background-color:#FFFFFF;
+    opacity:0.8;
+}
+
+.navbar-toggle
+{
+    border:1px solid #444;
+}
+.icon-bar
+{
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+    border:1px solid #444;
+}
+.navbar-brand{
+    padding:0px;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 150px;
+    padding:0px;
+    float:left;
+}
+.nav.navbar-nav li a {
+    text-transform:uppercase;
+    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
+    font-size:18px;
+    font-color:black;
+    color:black;
+}
+
+
+img{
+    height:15%;
+    width:20%;
+}
+
+.company-social{
+    text-align:right;
+    list-style:none;
+}
+
+.company-social li{
+    display:inline-block;
+}
+
+.company-social{
+    margin-top:25px;
+}
+
+.company-social li a i, .contact-icon{
+    color:gray;
+}
+
+footer {
+    background-color:black;
+    padding:0px;
+    text-align:center;
+}
+
+footer p {
+    text-align:left;
+    color:gray;
+}
+
+#general {
+	background-color:rgba(128,128,128,0.1);
+	padding:30px;
+	margin:30px;
+}
+
+#general-info {
+	margin-top:2%;
+	padding:20px;
+	outline-style:dashed;
+	outline-color:rgba(128,128,128,0.2)
+}
+
+h1,h2,h3,h4{
+	font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
+	font-size:30px;
+	text-align:center;
+}
+
+h3{
+	-webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: rgba(128,0,128,0.5);
+   color:rgba(128,0,128,1);
+}
+
+h4{
+	font-size:25px;
+	margin-bottom:40px;
+}
+
+#mission p{
+	text-align:justify;
+}
+
+#crest {
+	height:80%;
+	width:80%;
+}
+
+#mission {
+	margin:30px;
+	padding:30px;
+}
+
+#mission .container{
+	padding:20px;
+    width:60%;
+    outline-style:solid;
+    outline-color:rgba(128,0,128,0.3);
+    opacity:0.85;
+}
+
+h2 {
+	padding-bottom:10px;
+}
+
+.icon {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	color:rgba(0,0,0,0.7);
+	width:90px;
+	height:90px;
+    padding: 3px 3px;
+    border:3px solid rgba(0,0,0,0.7);
+    border-radius: 100%;
+    padding-top:15px;
+}
+
+#traditions .container {
+	padding-left:7%;
+	margin-bottom:50px;
+}
+
+#traditions .col-md-3 {
+	padding-top:30px;
+	height:275px;
+	background-color:rgba(128,0,128,0.1);
+}
+
+#traditions .row {
+	margin:40px;
+}
+
+#traditions p {
+	background-color:white;opacity:0.8;
+	font-weight:bold;
+	font-size:21px;
+}
