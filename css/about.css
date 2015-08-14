@@ -58,33 +58,6 @@ img{
     width:20%;
 }
 
-.company-social{
-    text-align:right;
-    list-style:none;
-}
-
-.company-social li{
-    display:inline-block;
-}
-
-.company-social{
-    margin-top:25px;
-}
-
-.company-social li a i, .contact-icon{
-    color:gray;
-}
-
-footer {
-    background-color:black;
-    text-align:center;
-}
-
-
-footer p {
-    text-align:left;
-    color:gray;
-}
 
 #general {
 	background-color:rgba(128,128,128,0.1);
@@ -174,4 +147,40 @@ h2 {
 	background-color:white;opacity:0.8;
 	font-weight:bold;
 	font-size:21px;
+}
+
+.company-social{
+    padding-bottom: 10px;
+    text-align:right;
+    list-style:none;
+}
+
+.company-social li{
+    display:inline-block;
+}
+
+.company-social{
+    margin-top:25px;
+}
+
+.company-social li a i, .contact-icon{
+    color:gray;
+}
+
+footer {
+    background-color:black;
+    padding:0px;
+    text-align:center;
+}
+
+headerp {
+    text-align:left;
+    color:gray;
+    padding-top: 10px;
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }

@@ -185,11 +185,7 @@ img{
     /*height: 100%;
     width:100%;*/
 }
-#f {
-    background-color: white;
-    position:absolute;
-    padding:0px;
-}
+
 
 p1{
     font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
@@ -198,32 +194,9 @@ p1{
     position:relative;
 }
 
-/*
-footer a, .btn-circle{
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 3px 16px;
-    border: 2px solid #fff;
-    border-radius: 100%!important;
-    font-size: 40px;
-    color: #fff;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-footer a:hover,
-footer a:focus, .btn-circle:hover, .btn-circle:focus {
-    outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
-}
-*/
-
 
 .company-social{
+    padding-bottom: 10px;
     text-align:right;
     list-style:none;
 }
@@ -240,11 +213,6 @@ footer a:focus, .btn-circle:hover, .btn-circle:focus {
     color:gray;
 }
 
-#about-header {
-    height:100%;
-    width:100%;
-}
-
 footer {
     background-color:black;
     padding:0px;
@@ -254,9 +222,9 @@ footer {
 headerp {
     text-align:left;
     color:gray;
-    padding: 30px;
-        margin: 0 0 10px;
-        display: block;
+    padding-top: 10px;
+    margin: 0 0 10px;
+    display: block;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
