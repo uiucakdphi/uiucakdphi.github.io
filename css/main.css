@@ -128,9 +128,9 @@ img{
 #news{
     padding-bottom:50px;
     background-color:rgba(128,0,128,0.1);
-    margin-bottom:40px;
 }
-#news .circle-wrapper{
+#news .wrapper{
+    text-align:center;
     height:400px;
     width:100%;
     border-radius:0;
@@ -160,14 +160,17 @@ img{
    background: rgba(0, 0, 0, 0.7);
    padding:10px;
 }
-
+#new .container
+{
+    background: #FFFFFF;
+}
 .boxed-white {
     background: #FFFFFF;
-    height: 400px;
   }
 
 #event
 {
+    height:100%;
     padding-top:10px;
     padding-bottom: 10px;
     background-color: white;
