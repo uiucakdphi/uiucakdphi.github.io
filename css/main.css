@@ -160,11 +160,30 @@ img{
    background: rgba(0, 0, 0, 0.7);
    padding:10px;
 }
+
+.boxed-white {
+    background: #FFFFFF;
+    height: 400px;
+  }
+
+#event
+{
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+#event img
+{
+    height:380px;
+    width: 280px;
+
+}
 #flyer {
     /*height: 325px;*/
-
-    height: 100%;
-    width:100%;
+    background-image:url('../images/rush/flyer.jpg');
+    /*height: 100%;
+    width:100%;*/
 }
 #f {
     background-color: white;
