@@ -161,10 +161,13 @@ img{
    padding:10px;
 }
 #flyer {
-    height: 325px;
-    width:225px;
+    /*height: 325px;*/
+
+    height: 100%;
+    width:100%;
 }
-#flyer-container {
+#f {
+    background-color: white;
     position:absolute;
     padding:0px;
 }
@@ -174,8 +177,6 @@ p1{
     font-size:20px;
     vertical-align:middle;
     position:relative;
-    top:60px;
-    left:260px;
 }
 
 /*
