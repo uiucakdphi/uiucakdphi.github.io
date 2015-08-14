@@ -24,7 +24,6 @@ html,body {
 
 header{
     background-size:100% 100%;
-    background-color:black;
 }
 .navbar-custom {
     background-color:#FFFFFF;
@@ -207,6 +206,10 @@ footer a:focus, .btn-circle:hover, .btn-circle:focus {
     color:gray;
 }
 
+#about-header {
+    height:100%;
+    width:100%;
+}
 
 footer {
     background-color:black;
