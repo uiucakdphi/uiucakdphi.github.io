@@ -1,3 +1,4 @@
+
 html,body {
     height:100%;
     font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
@@ -25,27 +26,40 @@ html,body {
 header{
     background-size:100% 100%;
 }
+
 .navbar-custom {
+    margin: 0px;
     background-color:#FFFFFF;
     opacity:0.8;
 }
 
+.navbar-toggle
+{
+    border:1px solid #444;
+}
+.icon-bar
+{
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+    border:1px solid #444;
+}
 .navbar-brand{
-    padding-top:5px;
+    padding:0px;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 150px;
+    padding:0px;
     float:left;
 }
-
-.nav.navbar-nav li a, .navbar-brand {
-    line-height:0px;
-    height:35px;
+.nav.navbar-nav li a {
     text-transform:uppercase;
     font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
     font-size:18px;
     font-color:black;
     color:black;
-}
-.navbar-custom.navbar-shrink {
-    background-color: black;
 }
 
 #welcome {
