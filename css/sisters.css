@@ -126,6 +126,7 @@ h2 {
 #board .container {
     padding-left:7%;
     text-align:center;
+    overflow:hidden;
 }
 
 .wrapper {
@@ -164,5 +165,13 @@ hr{
 }
 
 #cabinet .wrapper {
-    margin:0px;
+    overflow:hidden;
+}
+
+#right {
+    float:right;
+}
+
+#left {
+    float:left;
 }
