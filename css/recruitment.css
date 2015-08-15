@@ -1,0 +1,222 @@
+html,body {
+    height:100%;
+    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
+    font-size:18px;
+}
+
+.navbar-custom {
+    margin: 0px;
+    background-color:#FFFFFF;
+    opacity:0.8;
+}
+
+.navbar-toggle
+{
+    border:1px solid #444;
+}
+.icon-bar
+{
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+    border:1px solid #444;
+}
+.navbar-brand{
+    padding:0px;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 150px;
+    padding:0px;
+    float:left;
+}
+.nav.navbar-nav li a {
+    text-transform:uppercase;
+    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
+    font-size:18px;
+    font-color:black;
+    color:black;
+}
+
+
+img{
+    height:15%;
+    width:20%;
+}
+
+.company-social{
+    padding-bottom: 10px;
+    text-align:right;
+    list-style:none;
+}
+
+.company-social li{
+    display:inline-block;
+}
+
+.company-social{
+    margin-top:25px;
+}
+
+.company-social li a i, .contact-icon{
+    color:gray;
+}
+
+footer {
+    background-color:black;
+    padding:0px;
+    text-align:center;
+}
+
+headerp {
+    text-align:left;
+    color:gray;
+    padding-top: 10px;
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+header {
+    background-size: 100% 100%;
+    position: relative;
+    width:100%;
+    height:75%;
+    background:url(../images/rush/rush.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+section {
+    text-align:center;
+    padding:20px;
+}
+
+h1,h2,h3,h4,h5,h6,h7 {
+    font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
+}
+
+h1 {
+    font-size:30px;
+}
+
+h2 {
+    padding:20px;
+    font-size:35px; 
+    text-transform:uppercase;
+}
+
+#title .wrapper{
+    border-style:solid;
+    border-color:rgba(255,0,255,0.3);
+    background-color:rgba(255,0,255,0.2);
+    margin:20px;
+}
+
+h3{
+    font-size:24px;
+}
+
+#about .wrapper {
+    margin:0 auto;
+    height:350px;
+    width:500px;
+    background-color:rgba(128,128,128,0.2);
+}
+
+#about {
+    padding-bottom:30px;
+}
+
+#rush img {
+    width:90%;
+    height:90%;
+}
+
+#rush .container {
+    padding:40px;
+    background-color:rgba(128,0,128,0.1);
+}
+
+#rush #events {
+    padding:20px;
+    background-color:rgba(256,256,256,0.4);
+}
+
+h4,h5,h6 {
+    text-transform:uppercase;
+    font-size:40px;
+    color:rgba(128,0,128,0.5);
+}
+
+h4 {
+    margin-bottom:0px;
+    text-align:right;
+    padding-right:10%;
+}
+
+p1 {
+    font-size:14px;
+}
+
+#info .container {
+    border-color:rgba(128,0,128,0.2);
+    padding:20px;
+    border-style:dashed;
+    width:65%;
+}
+
+h5{
+    text-align:center;
+    padding-bottom:10px;
+}
+
+h6{
+    text-align:left;
+    padding-bottom:0px;
+    padding-left:10%;
+}
+h7{
+    font-size:20px;
+    text-align:center;
+}
+
+#more-info {
+    background-color:#000;
+    margin-bottom:30px;
+}
+
+#more-info p,h7{
+    color:white;
+}
+
+#column-1 {
+    margin-top:3%;
+    padding:20px;
+    border-style:solid;
+    border-width:2px;
+    border-color:gray;
+}
+
+#more-info img {
+    height:100%;
+    width:100%;
+}
+
+iframe {
+    padding-bottom:20px;
+}
+
+p2 {
+    text-transform:uppercase;
+    font-weight:2px;
+    color:rgba(128,0,128,0.5);
+}
+
