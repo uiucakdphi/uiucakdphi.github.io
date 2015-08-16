@@ -8,6 +8,10 @@ html,body {
 .carousel {
     height:80%;
 }
+ul.nav li.dropdown:hover ul.dropdown-menu {
+            display: block;
+}
+
 
 .item, .active, .carousel-inner{
     height:100%;
