@@ -1,0 +1,192 @@
+html,body {
+    height:100%;
+    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
+    font-size:18px;
+}
+
+.navbar-custom {
+    margin: 0px;
+    background-color:#FFFFFF;
+    opacity:0.8;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+            display: block;
+}
+
+.navbar-toggle
+{
+    border:1px solid #444;
+}
+.icon-bar
+{
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+    border:1px solid #444;
+}
+.navbar-brand{
+    padding:0px;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 150px;
+    padding:0px;
+    float:left;
+}
+.nav.navbar-nav li a {
+    text-transform:uppercase;
+    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
+    font-size:18px;
+    font-color:black;
+    color:black;
+}
+
+
+img{
+    height:15%;
+    width:20%;
+}
+
+.company-social{
+    padding-bottom: 10px;
+    text-align:right;
+    list-style:none;
+}
+
+.company-social li{
+    display:inline-block;
+}
+
+.company-social{
+    margin-top:25px;
+}
+
+.company-social li a i, .contact-icon{
+    color:gray;
+}
+
+footer {
+    background-color:black;
+    padding:0px;
+    text-align:center;
+}
+
+headerp {
+    text-align:left;
+    color:gray;
+    padding-top: 10px;
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#main-header {
+    background-color:#E5CCFF;
+    text-align:center;
+    background-size: 100% 100%;
+    position: relative;
+    width:100%;
+    height:40%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+    border-bottom-width:10px;
+}
+
+#main-header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+#main-header .header-content .header-content-inner{
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+}
+
+h1 {
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    text-transform:uppercase;
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+    margin-left:30%;
+    width:40%;
+    font-size:50px;
+    margin-top: 9%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing:2px;
+}
+
+#national-header {
+    margin-top:50px;
+    background-image:url(../images/about/history/national.jpg);
+    text-align:center;
+    background-size: 100% 100%;
+    position: relative;
+    width:100%;
+    height:30%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#national-header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+#national-header .header-content .header-content-inner{
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+}
+
+h3 {
+    color:white;
+    margin-left:30%;
+    width:40%;
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+    font-size:30px;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing:2px;
+}
+
+section {
+    text-align:center;
+    padding:40px;
+}
+
+#national {
+    padding-bottom:20px;
+}
+
+h2{
+    color:rgba(128,0,128,0.5);
+    text-transform:uppercase;
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+    size:30px;
+}
+
+#chapter {
+    background-color:rgba(128,0,128,0.1);
+    margin-bottom:50px;
+}
+
+h2 {
+    padding-left:11%;
+}
+

@@ -86,96 +86,73 @@ headerp {
 }
 
 header {
+    background-image:url(../images/about/chapters/map.png);
+    text-align:center;
     background-size: 100% 100%;
     position: relative;
     width:100%;
-    height:75%;
-    background:url(../images/sisters/sisters.jpg);
+    height:40%;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+    border-bottom-width:10px;
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner{
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+}
+
+h1 {
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    text-transform:uppercase;
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+    margin-left:30%;
+    width:40%;
+    font-size:50px;
+    margin-top: 9%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing:2px;
 }
 
 section {
     text-align:center;
-    padding:20px;
+    padding:40px;
 }
 
-h1,h3 {
-    font-size:30px;
-    font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
-}
-
-
-#profile {
-    height:100%;
-    width:100%;
-}
-
-#sisters .container {
-    padding-top:30px;
+.container {
+    line-height:30px;
 }
 
 h2 {
-    font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
-    font-size:20px;
-}
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+    color:rgba(128,0,128,0.5);
+    text-transform:uppercase;
 
-.row {
-    padding-bottom:10px;
-}
-
-#board .container {
-    padding-left:7%;
-    text-align:center;
-    overflow:hidden;
 }
 
 .wrapper {
-    padding:20px;
-    background-color: rgba(128,0,128,0.1);
+    background-color:rgba(128,0,128,0.1);
+    padding:20px
 }
 
-#inner-wrapper{
-    background-color: rgba(256,256,256,0.5);
-}
-
-h4 {
-    margin-bottom:0px;
+table tr:first-child td {
     text-transform:uppercase;
-    font-size:30px;
     color:rgba(128,0,128,0.5);
 }
 
-h5{
-    text-transform:uppercase;
-    color:rgba(128,0,128,0.8);
-    font-size:20px;
-}
-
-p {
-    margin:0px;
-}
-
-.fa-envelope {
-    color:rgba(128,128,128,0.8);
-}
-
-hr{
-    width:75%;
-    color:black;
-}
-
-#cabinet .wrapper {
-    overflow:hidden;
-}
-
-#right {
-    float:right;
-}
-
-#left {
-    float:left;
+i {
+    color:rgba(128,0,128,0.3);
 }

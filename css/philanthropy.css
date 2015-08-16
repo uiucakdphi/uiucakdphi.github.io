@@ -86,96 +86,115 @@ headerp {
 }
 
 header {
+    background-color:#FFCCCC;
+    text-align:center;
     background-size: 100% 100%;
     position: relative;
     width:100%;
-    height:75%;
-    background:url(../images/sisters/sisters.jpg);
+    height:40%;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+    border-bottom-width:10px;
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner{
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+}
+
+h1 {
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    text-transform:uppercase;
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+    margin-left:30%;
+    width:40%;
+    font-size:50px;
+    margin-top: 9%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing:2px;
 }
 
 section {
     text-align:center;
-    padding:20px;
+    padding:40px;
 }
 
-h1,h3 {
+h2,h3 {
+    text-transform:uppercase;
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+    color:#FF9999;
     font-size:30px;
-    font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
 }
 
+h2{
+    text-align:right;
+}
 
-#profile {
-    height:100%;
+h3{
+    text-align:left;
+}
+#introduction .col-md-8 {
+    padding:20px;
+    text-align:left;
+    border-style: dashed;
+    border-color:#FF9999;
+}
+
+#bca {
+    padding-top:10%;
+    width:90%;
+    height:90%;
+}
+
+#images {
+    background-color:black;
+    margin-bottom:40px;
+}
+
+#images img {
     width:100%;
+    height:100%;
 }
 
-#sisters .container {
-    padding-top:30px;
+#date-auction .container {
+    padding:30px;
+    background-color:#FFCCCC;
 }
 
-h2 {
-    font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
-    font-size:20px;
+#date-auction img {
+    width:300%;
+    height:300%;
 }
 
-.row {
-    padding-bottom:10px;
+h3 {
+    margin-left:7%;
 }
 
-#board .container {
-    padding-left:7%;
-    text-align:center;
-    overflow:hidden;
+#top {
+    margin-bottom:10px;
 }
 
-.wrapper {
+#right img {
+    width:400%;
+    height:400%;
+}
+
+#date-auction .col-md-7 {
+    margin-top:3%;
+    text-align:left;
     padding:20px;
-    background-color: rgba(128,0,128,0.1);
-}
-
-#inner-wrapper{
-    background-color: rgba(256,256,256,0.5);
-}
-
-h4 {
-    margin-bottom:0px;
-    text-transform:uppercase;
-    font-size:30px;
-    color:rgba(128,0,128,0.5);
-}
-
-h5{
-    text-transform:uppercase;
-    color:rgba(128,0,128,0.8);
-    font-size:20px;
-}
-
-p {
-    margin:0px;
-}
-
-.fa-envelope {
-    color:rgba(128,128,128,0.8);
-}
-
-hr{
-    width:75%;
-    color:black;
-}
-
-#cabinet .wrapper {
-    overflow:hidden;
-}
-
-#right {
-    float:right;
-}
-
-#left {
-    float:left;
+    background-color:rgba(256,256,256,0.5);
 }

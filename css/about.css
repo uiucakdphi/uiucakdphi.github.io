@@ -17,6 +17,10 @@ header {
     -o-background-size: cover;
 }
 
+ul.nav li.dropdown:hover ul.dropdown-menu {
+            display: block;
+}
+
 .navbar-custom {
     margin: 0px;
     background-color:#FFFFFF;

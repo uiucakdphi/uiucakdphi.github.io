@@ -10,6 +10,10 @@ html,body {
     opacity:0.8;
 }
 
+ul.nav li.dropdown:hover ul.dropdown-menu {
+            display: block;
+}
+
 .navbar-toggle
 {
     border:1px solid #444;
@@ -218,5 +222,10 @@ p2 {
     text-transform:uppercase;
     font-weight:2px;
     color:rgba(128,0,128,0.5);
+}
+
+p3{
+    text-transform:uppercase;
+    color:rgba(128,128,128,0.5);
 }
 
