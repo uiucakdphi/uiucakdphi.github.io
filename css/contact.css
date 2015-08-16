@@ -1,0 +1,135 @@
+html,body {
+    height:100%;
+    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
+    font-size:18px;
+}
+
+.navbar-custom {
+    margin: 0px;
+    background-color:#FFFFFF;
+    opacity:0.8;
+}
+
+.navbar-toggle
+{
+    border:1px solid #444;
+}
+.icon-bar
+{
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+    border:1px solid #444;
+}
+.navbar-brand{
+    padding:0px;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 150px;
+    padding:0px;
+    float:left;
+}
+.nav.navbar-nav li a {
+    text-transform:uppercase;
+    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
+    font-size:18px;
+    font-color:black;
+    color:black;
+}
+
+
+img{
+    height:15%;
+    width:20%;
+}
+
+.company-social{
+    padding-bottom: 10px;
+    text-align:right;
+    list-style:none;
+}
+
+.company-social li{
+    display:inline-block;
+}
+
+.company-social{
+    margin-top:25px;
+}
+
+.company-social li a i, .contact-icon{
+    color:gray;
+}
+
+footer {
+    background-color:black;
+    padding:0px;
+    text-align:center;
+}
+
+headerp {
+    text-align:left;
+    color:gray;
+    padding-top: 10px;
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+header {
+    text-align:center;
+    background-size: 100% 100%;
+    position: relative;
+    width:100%;
+    height:50%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner{
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+}
+
+header .header-content .header-content-inner h1 {
+    font-size:30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing:2px;
+}
+
+header .header-content .header-content-inner p {
+    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+section {
+    text-align:center;
+}
+
+#contact-form {
+    background-color:rgba(129,128,128,0.2);
+}
+
+form {
+    background-color:white;
+}
+
