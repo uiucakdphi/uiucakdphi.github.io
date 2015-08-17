@@ -1,0 +1,154 @@
+html,body {
+    height:100%;
+    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
+    font-size:18px;
+}
+
+.navbar-custom {
+    margin: 0px;
+    background-color:#FFFFFF;
+    opacity:0.8;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+
+.navbar-toggle
+{
+    border:1px solid #444;
+}
+.icon-bar
+{
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+    border:1px solid #444;
+}
+.navbar-brand{
+    padding:0px;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 150px;
+    padding:0px;
+    float:left;
+}
+.nav.navbar-nav li a {
+    text-transform:uppercase;
+    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
+    font-size:18px;
+    font-color:black;
+    color:black;
+}
+
+
+img{
+    height:15%;
+    width:20%;
+}
+
+.company-social{
+    padding-bottom: 10px;
+    text-align:right;
+    list-style:none;
+}
+
+.company-social li{
+    display:inline-block;
+}
+
+.company-social{
+    margin-top:25px;
+}
+
+.company-social li a i, .contact-icon{
+    color:gray;
+}
+
+footer {
+    background-color:black;
+    padding:0px;
+    text-align:center;
+}
+
+headerp {
+    text-align:left;
+    color:gray;
+    padding-top: 10px;
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+
+h1{
+    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
+    color:rgba(128,0,128,0.5);
+    font-size:50px;
+    text-transform:uppercase;
+    margin-left:15%;
+}
+
+img {
+    height:100%;
+    width:100%;
+}
+
+#profile .container {
+    width:70%;
+    padding:40px;
+    background-color:rgba(128,0,128,0.1);
+}
+
+h2 {
+    color:rgba(128,0,128,0.5); 
+    text-transform:uppercase;
+    font-size:20px;   
+}
+
+section .col-md-6 {
+    line-height:40px;
+}
+
+#info {
+    background-color:rgba(256,256,256,0.5);
+    padding:20px;
+}
+
+h2, p{
+    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
+    display:inline;
+}
+
+section {
+    padding:30px;
+}
+
+#right-col {
+    text-align:right;
+}
+
+input {
+    outline:0;
+}
+
+#nav .container .row li {
+    list-style:none;
+}
+
+#nav .container .row li a {
+    text-decoration:none;
+    text-transform:uppercase;
+    color:white;
+    background-color:rgba(128,0,128,0.5);
+    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
+    padding:5px;
+
+}
+
