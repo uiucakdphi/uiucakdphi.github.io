@@ -150,7 +150,7 @@ img{
 
 #news p { 
    position: absolute; 
-   top: 175px; 
+   top: 225px; 
    left: 0px; 
    width: 100%; 
    font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
@@ -175,9 +175,12 @@ img{
 #event
 {
     height:400px;
-    padding-top:45px;
-    padding-bottom: 10px;
+    /*padding-top:45px;
+    padding-bottom: 10px;*/
+    padding-top:50px;
+    padding:40px;
     background-color: white;
+    color:rgba(128,0,128,0.8);
 }
 
 #event img
