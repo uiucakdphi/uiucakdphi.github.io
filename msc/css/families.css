@@ -1,6 +1,6 @@
 html,body {
     height:100%;
-    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
+    font-family:'Muli','Helvetica Neue',Arial,sans-serif;
     font-size:18px;
 }
 
@@ -80,68 +80,23 @@ headerp {
     -webkit-margin-end: 0px;
 }
 
-#welcome {
-    background-color:rgba(0,0,0,0.1);
-    /*margin-top:4%;*/
-    padding-top:3.5%;
-    padding-bottom:30px;
-}
-
-#welcome img {
-    margin-left:14%;
-}
-#welcome .container {
-    padding:40px;
-    width:75%;
-    background-color:rgba(0,153,153,0.3);
-}
-
-#welcome p {
-    font-size:20px;
-}
-
-#house {
-    background-color:black;
-    text-align: center;
-}
-
-#house h1 {
-    padding-top:18px;
-    color:white;
-    background-color:rgba(0,153,153,0.9);
+header {
+    padding-top:50px;
     text-align:center;
-    padding-bottom:30px;
 }
 
-#house h2 {
-    color:white;
-}
-
-#house img{
-    height:120px;
-    border-radius:100%;
-    margin-left:20px;
-    margin-bottom:10px;
-}
-
-#house p, p1 {
-    color:rgba(256, 256, 256, 0.6);
-}
-
-#house #icon {
-    padding-bottom:20px;
-}
-
-#house #class {
-    background-color:rgba(0,153,153,0.5);
-}
-
-#contact {
+section {
     text-align:center;
-    padding-bottom:40px;
 }
 
-#contact .container {
-    background-color:rgba(0,0,0,0.1);
-    padding:40px;
+section img {
+    width:1000px;
+}
+
+#left {
+    padding-left:200px;
+}
+
+#pRight {
+    padding-right:100px;
 }

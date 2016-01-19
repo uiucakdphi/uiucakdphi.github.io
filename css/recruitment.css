@@ -115,13 +115,15 @@ h2 {
     padding:20px;
     font-size:35px; 
     text-transform:uppercase;
+    color:white;
 }
 
 #title .wrapper{
-    border-style:solid;
-    border-color:rgba(255,0,255,0.3);
-    background-color:rgba(255,0,255,0.2);
+    /*border-style:solid;
+    border-color:rgba(51,0,102,0.3);*/
+    background-color:rgba(51,0,102,0.3);
     margin:20px;
+    padding:20px;
 }
 
 h3{
@@ -140,13 +142,15 @@ h3{
 }
 
 #rush img {
-    width:90%;
-    height:90%;
+    width:60%;
+    height:60%;
+    padding-bottom:20px;
 }
 
 #rush .container {
     padding:40px;
-    background-color:rgba(128,0,128,0.1);
+    background-color:rgba(51,0,102,0.1);
+    width:60%;
 }
 
 #rush #events {
@@ -226,5 +230,9 @@ p2 {
 p3{
     text-transform:uppercase;
     color:rgba(128,128,128,0.5);
+}
+
+#fb-sm {
+    color:rgba(256,256,256,0.3);
 }
 
