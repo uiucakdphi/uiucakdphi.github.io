@@ -178,16 +178,17 @@ img{
     /*padding-top:45px;
     padding-bottom: 10px;*/
     padding-top:50px;
-    padding:40px;
+    padding:20px;
     background-color: white;
     color:rgba(128,0,128,0.8);
+    text-align:center;
 }
 
 #event img
 {
     margin-top, margin-bottom: 0px;
-    height:90%;
-    width: 100%;
+    height:80%;
+    width: 80%;
 
 }
 
@@ -199,15 +200,18 @@ img{
     width:100%;
 }*/
 
+p1 {
+    font-size:17px;
+}
 
 p1,p2{
     font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
-    font-size:20px;
     vertical-align:middle;
     position:relative;
 }
 
 p2{
+    font-size:20px;
     color:#ff66b2;
 }
 
