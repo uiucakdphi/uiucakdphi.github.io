@@ -143,22 +143,22 @@ img{
 }
 
 
-.image { 
-   position: relative; 
+.image {
+   position: relative;
    width: 100%; /* for IE 6 */
 }
 
-#news p { 
-   position: absolute; 
-   top: 225px; 
-   left: 0px; 
-   width: 100%; 
+#news p {
+   position: absolute;
+   top: 225px;
+   left: 0px;
+   width: 100%;
    font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
    font-size:16px;
 }
 
-#news p span { 
-   color: white; 
+#news p span {
+   color: white;
    letter-spacing:1px;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
