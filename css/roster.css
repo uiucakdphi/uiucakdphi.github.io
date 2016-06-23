@@ -1,14 +1,16 @@
-body {
-  text-align: left;
+#class span {
+  font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: gray;
 }
-
+#class span, #class h1 {
+  display: inline;
+}
 .roster-header {
-  background: #190033;
+  background: #110011;
 }
 
-.subtitle {
-  color: #fff;
-}
 
 #class img {
     height:90%;
@@ -16,10 +18,9 @@ body {
     float: right;
 }
 
-h1 {
+#class h1 {
     margin-left:5%;
     font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
-    font-size:50px;
     text-align: left !important;
 }
 
