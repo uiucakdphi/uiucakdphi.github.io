@@ -1,190 +1,93 @@
-html,body {
-    height:100%;
-    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
-    font-size:18px;
+#general .container .row {
+	padding: 70px;
 }
 
-header {
-	background-size: 100% 100%;
-    position: relative;
-    width:100%;
-    height:75%;
-    background:url(../images/about/about.jpg);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-ul.nav li.dropdown:hover ul.dropdown-menu {
-            display: block;
-}
-
-.navbar-custom {
-    margin: 0px;
-    background-color:#FFFFFF;
-    opacity:0.8;
-}
-
-.navbar-toggle
-{
-    border:1px solid #444;
-}
-.icon-bar
-{
-    display:block;
-    width:22px;
-    height:2px;
-    border-radius:1px;
-    border:1px solid #444;
-}
-.navbar-brand{
-    padding:0px;
-}
-.navbar-brand img{
-    height: 50px;
-    width: 150px;
-    padding:0px;
-    float:left;
-}
-.nav.navbar-nav li a {
-    text-transform:uppercase;
-    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
-    font-size:18px;
-    font-color:black;
-    color:black;
-}
-
-
-img{
-    height:15%;
-    width:20%;
-}
-
-
-#general {
-	background-color:rgba(128,128,128,0.1);
-	padding:30px;
-	margin:30px;
-}
-
-#general-info {
-	margin-top:2%;
-	padding:20px;
-	outline-style:dashed;
-	outline-color:rgba(128,128,128,0.2)
-}
-
-h1,h2,h3,h4{
-	font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
-	font-size:30px;
-	text-align:center;
-}
-
-h3{
-	-webkit-text-stroke-width: 2px;
-   -webkit-text-stroke-color: rgba(128,0,128,0.5);
-   color:rgba(128,0,128,1);
-}
-
-h4{
-	font-size:25px;
-	margin-bottom:40px;
-}
-
-#mission p{
-	text-align:justify;
-}
-
-#crest {
-	height:80%;
-	width:80%;
-}
-
-#mission {
-	margin:30px;
-	padding:30px;
-}
-
-#mission .container{
-	padding:20px;
-    width:60%;
-    outline-style:solid;
-    outline-color:rgba(128,0,128,0.3);
-    opacity:0.85;
-}
-
-h2 {
-	padding-bottom:10px;
-}
-
-.icon {
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;
-	color:rgba(0,0,0,0.7);
-	width:90px;
-	height:90px;
-    padding: 3px 3px;
-    border:3px solid rgba(0,0,0,0.7);
-    border-radius: 100%;
-    padding-top:15px;
-}
-
-#traditions .container {
-	padding-left:7%;
-	margin-bottom:50px;
-}
-
-#traditions .col-md-3 {
-	padding-top:30px;
-	height:275px;
-	background-color:rgba(128,0,128,0.1);
+#traditions {
+	margin-top: 5%;
 }
 
 #traditions .row {
-	margin:40px;
+	border: solid rgba(51, 0, 51, 0.7);
+	padding: 20px;
 }
 
-#traditions p {
-	background-color:white;opacity:0.8;
-	font-weight:bold;
-	font-size:21px;
+#traditions th, #traditions td {
+	padding: 7px;
 }
 
-.company-social{
-    padding-bottom: 10px;
-    text-align:right;
-    list-style:none;
+#traditions img {
+	height:120%;
+	width:120%;
+	text-align: center;
+	padding-top: 40%;
 }
 
-.company-social li{
-    display:inline-block;
+#crest-title {
+	text-transform: uppercase;
+	color: purple;
+	font-size: 20px;
 }
 
-.company-social{
-    margin-top:25px;
+#numbers .container {
+	display: inline;
 }
 
-.company-social li a i, .contact-icon{
-    color:gray;
+.circle-text-center h1 {
+    font-size:40px;
 }
 
-footer {
-    background-color:black;
+.circle-text-center h1, #numbers p {
+    font-family:"Quicksand";
     padding:0px;
-    text-align:center;
+    text-align: center;
+    color: #fff;
 }
 
-headerp {
-    text-align:left;
-    color:gray;
-    padding-top: 10px;
-    margin: 0 0 10px;
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+.circle-wrapper {
+    margin:auto;
+    width:200px;
+    height:200px;
+    text-align:center;
+    padding: 35px 40px;
+    background: #190033;
+    opacity: 0.85;
+    border-radius: 100%;
+    position: relative;
+}
+
+/* Mobile view */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	.circle-wrapper{
+		display: none;
+	}
+	#general .container .row {
+		padding: 20px;
+	}
+	#general .container {
+		width: 100%;
+		right: 0;
+	}
+	#traditions .col-sm-4 {
+		display: none;
+	}
+	#traditions {
+		margin-top: 40px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.col-xs-offset-1 {
+		margin: 0;
+	}
+}
+
+/* Tablet view */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.circle-wrapper{
+		display: none;
+	}
+	#traditions img {
+		height: 90%;
+		width: 90%;
+		padding-top: 20%;
+	}
 }

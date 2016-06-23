@@ -1,152 +1,25 @@
-html,body {
-    height:100%;
-    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
-    font-size:18px;
-}
-
-.navbar-custom {
-    margin: 0px;
-    background-color:#FFFFFF;
-    opacity:0.8;
-}
-
-ul.nav li.dropdown:hover ul.dropdown-menu {
-            display: block;
-}
-
-.navbar-toggle
-{
-    border:1px solid #444;
-}
-.icon-bar
-{
-    display:block;
-    width:22px;
-    height:2px;
-    border-radius:1px;
-    border:1px solid #444;
-}
-.navbar-brand{
-    padding:0px;
-}
-.navbar-brand img{
-    height: 50px;
-    width: 150px;
-    padding:0px;
-    float:left;
-}
-.nav.navbar-nav li a {
-    text-transform:uppercase;
-    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
-    font-size:18px;
-    font-color:black;
-    color:black;
-}
-
-
-img{
-    height:15%;
-    width:20%;
-}
-
-.company-social{
-    padding-bottom: 10px;
-    text-align:right;
-    list-style:none;
-}
-
-.company-social li{
-    display:inline-block;
-}
-
-.company-social{
-    margin-top:25px;
-}
-
-.company-social li a i, .contact-icon{
-    color:gray;
-}
-
-footer {
-    background-color:black;
-    padding:0px;
-    text-align:center;
-}
-
-headerp {
-    text-align:left;
-    color:gray;
-    padding-top: 10px;
-    margin: 0 0 10px;
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-
-header {
-    background-color:#FFCCCC;
-    text-align:center;
-    background-size: 100% 100%;
-    position: relative;
-    width:100%;
-    height:40%;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    border-bottom-style:solid;
-    border-bottom-color:black;
-    border-bottom-width:10px;
-}
-
-header .header-content {
-    position: relative;
-    width: 100%;
-    padding: 50px 50px;
-    text-align: center;
-}
-
-header .header-content .header-content-inner{
-    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
-}
-
-h1 {
-    background-color:rgba(0,0,0,0.5);
-    color:white;
-    text-transform:uppercase;
-    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
-    margin-left:30%;
-    width:40%;
-    font-size:50px;
-    margin-top: 9%;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing:2px;
+.philanthropy-header {
+    background: url(../views/images/about/philanthropy/header.jpg);
 }
 
 section {
     text-align:center;
-    padding:40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-h2,h3 {
+#bca-introduction h1, #date-auction h1 {
     text-transform:uppercase;
     font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
     color:#FF9999;
     font-size:30px;
 }
 
-h2{
+#bca-introduction h1 {
     text-align:right;
 }
 
-h3{
-    text-align:left;
-}
-#introduction .col-md-8 {
+#bca-introduction .col-md-8 {
     padding:20px;
     text-align:left;
     border-style: dashed;
@@ -159,42 +32,92 @@ h3{
     height:90%;
 }
 
-#images {
+#bca-images {
     background-color:black;
     margin-bottom:40px;
+    padding: 40px;
 }
 
-#images img {
+#bca-images img {
     width:100%;
     height:100%;
 }
 
-#date-auction .container {
-    padding:30px;
-    background-color:#FFCCCC;
-}
-
 #date-auction img {
-    width:300%;
-    height:300%;
+    width:110%;
+    height:110%;
 }
 
-h3 {
-    margin-left:7%;
+#right {
+  margin-top: 50px;
 }
 
 #top {
-    margin-bottom:10px;
+    margin-bottom:15px;
 }
 
-#right img {
-    width:400%;
-    height:400%;
-}
 
 #date-auction .col-md-7 {
     margin-top:3%;
     text-align:left;
     padding:20px;
     background-color:rgba(256,256,256,0.5);
+}
+
+/* Mobile view */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #bca-introduction h1, #date-auction h1 {
+    text-align: center;
+    margin: 0;
+  }
+  #bca-images img {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  #left img, #date-auction img {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  #top {
+    margin: 0;
+  }
+  #right {
+    margin-top: 0;
+  }
+  #bca-introduction img {
+    margin-bottom: 20px;
+  }
+  .subtitle {
+    margin-left: 0 !important;
+  }
+
+}
+/* Tablet view */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #date-auction img {
+    margin-top: 10px;
+    width: 70%;
+    height: 70%;
+  }
+  #bca-introduction h1, #date-auction h1 {
+    text-align: center;
+    margin: 0;
+  }
+  #bca-images img {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  #bca-introduction img {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1198px) {
+  #date-auction .col-md-7 {
+    margin-top: 0;
+  }
 }

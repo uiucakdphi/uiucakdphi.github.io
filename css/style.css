@@ -1,0 +1,508 @@
+html,body {
+    height:100%;
+    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
+    font-size:18px;
+    text-align: center;
+}
+
+/*--------- Header Images --------*/
+.about-header {
+    background:url(../views/images/about/about.jpg);
+}
+
+.contact-header {
+  background: #000;
+}
+
+.background-gray {
+  background-color:rgba(128,128,128,0.1);
+}
+.full-width {
+  width: 100%;
+}
+
+/*--------- Typography ------------*/
+.text-justify {
+  text-align: justify;
+}
+.text-left {
+  text-align: left;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+header {
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s;
+}
+
+
+h1 {
+	font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
+	font-size:30px;
+	text-align:center;
+  margin-bottom: 10px;
+}
+
+.main-heading {
+  background-size: 100% 100%;
+  position: relative;
+  width:100%;
+  height:75%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.subheading {
+  text-align:center;
+  background-size: 100% 100%;
+  position: relative;
+  width:100%;
+  height:60%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.subheading .header-content {
+    position: relative;
+    width: 100%;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.subheading .header-content .header-content-inner {
+    text-align:center;
+}
+
+.subtitle {
+    color:white;
+    text-transform:uppercase;
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+    font-size:50px;
+    margin-top: 370px;
+    font-weight: 700;
+    letter-spacing:2px;
+    text-align: left;
+}
+
+.title {
+  color: #fff;
+  position: absolute;
+  top: 63%;
+  left: 5%;
+}
+
+.title h1 {
+  text-align: left;
+  font-size: 75px;
+}
+
+
+/*-----------------Navigation----------------*/
+/*@media (min-width: 767px) {
+  ul.nav li.dropdown:hover ul.dropdown-menu {
+      display: block;
+      background: #330033;
+      opacity: 0.9;
+  }
+}*/
+
+
+
+.navbar-custom {
+    margin: 0px;
+    background-color:#330033;
+}
+
+.navbar {
+  -webkit-transition: opacity 0.5s ease-in-out;
+-moz-transition: opacity 0.5s ease-in-out;
+transition: opacity 0.5s ease-in-out;
+}
+
+nav.navbar.shrink {
+  height: 40px;
+}
+
+.navbar-toggle
+{
+    border:1px solid #fff;
+}
+
+.icon-bar
+{
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+    border:1px solid #fff;
+}
+.navbar-brand{
+    padding:0px;
+}
+.navbar-brand img{
+    position: absolute;
+    top: 8px;
+    height: 60px;
+    width: 250px;
+    padding:0px;
+    float:left;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.nav.navbar-nav li .main-nav {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.nav.navbar-nav li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 0;
+    text-transform:uppercase;
+    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
+    font-weight: 300;
+    font-size:15px;
+    color:white;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.nav.navbar-nav li a:hover {
+  background: #440044;
+}
+
+.dropdown-menu {
+  background: #330033;
+  opacity: 0.9;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background: #440044;
+}
+a.dropdown-toggle.main-nav {
+  background: none;
+}
+/*-------------------- Main Page -----------------------*/
+/* Carousel*/
+.carousel {
+    height:90%;
+    background-size:100% 100%;
+    margin-top: 60px;
+}
+
+.item, .active, .carousel-inner{
+    height:100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.carousel-control, .carousel-control:hover {
+  background: none;
+}
+
+#banner-message .container {
+  opacity: 0.85;
+  background-color: #190033;
+  position: absolute;
+  top: 67%;
+  width: 100%;
+  padding: 10px;
+}
+
+#banner-message h1 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#welcome {
+    padding:30px 0;
+}
+
+#welcome .container{
+    text-align:center;
+    padding-left, padding-right:100px;
+    background-color:rgba(128,0,128,0.1);
+    opacity:0.85;
+}
+
+#numbers .container{
+    padding-top:30px;
+}
+
+#welcome p{
+    padding:30px;
+}
+
+#welcome h1{
+    padding-top:20px;
+    text-align:center;
+}
+
+
+#announcements h1, #event h1{
+    text-transform:uppercase;
+    margin-bottom:0px;
+    color:rgba(128,0,128,0.5);
+}
+
+#announcements{
+    padding-bottom:50px;
+    background-color:rgba(128,0,128,0.1);
+}
+#announcements .wrapper{
+    text-align:center;
+    height:400px;
+    width:100%;
+    border-radius:0;
+    background-color:#FFF;
+    opacity:0.85;
+}
+
+
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+#announcements p {
+   position: absolute;
+   top: 225px;
+   left: 0px;
+   width: 100%;
+   font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
+   font-size:16px;
+}
+
+#announcements p span {
+   color: white;
+   letter-spacing:1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding:10px;
+}
+
+.boxed-white {
+    background: #FFFFFF;
+  }
+
+@media only screen and (min-width: 767px) {
+  .wrapper-sm {
+    display: none;
+  }
+}
+.wrapper-sm img {
+  width: 100%;
+  height: 100%;
+}
+
+#event
+{
+    height:400px;
+    /*padding-top:45px;
+    padding-bottom: 10px;*/
+    padding-top:50px;
+    padding:20px;
+    background-color: white;
+    color:rgba(128,0,128,0.8);
+    text-align:center;
+}
+
+#event img
+{
+    margin-top, margin-bottom: 0px;
+    height:80%;
+    width: 80%;
+
+}
+
+
+/*#flyer {
+    height: 325px;
+    background-image:url('../images/rush/flyer.jpg');
+    height: 100%;
+    width:100%;
+}*/
+
+#event p {
+    font-size:17px;
+}
+
+#banner-message h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 75px;
+}
+
+#contact-form .container {
+  text-align: center;
+}
+#contact-form input {
+  display: block;
+}
+
+
+/*-------------- Footer -------------------*/
+.company-social{
+    margin-top:20px;
+    padding-bottom: 15px;
+    text-align:right;
+    list-style:none;
+}
+
+.company-social li{
+    display:inline-block;
+}
+
+.company-social li a i, .contact-icon{
+    color:gray;
+}
+
+footer {
+    background-color:black;
+    padding:5px;
+    text-align:center;
+    font-size: 15px;
+}
+
+headerp {
+    text-align:left;
+    color:gray;
+    padding-top: 10px;
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+/*------------- Web Responsive ---------------*/
+/* Mobile view */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #welcome h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  #banner-message h1 {
+    font-size: 20px;
+  }
+  #banner-message h2 {
+    font-size: 32px;
+  }
+  #banner-message .container {
+    top: 55.5%;
+  }
+  .wrapper-lg {
+    display: none;
+  }
+  #news .row {
+    background: rgba(255,255,255,0.85);
+    padding: 20px;
+    margin-top:10px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  #announcements p {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  #event {
+    height: 250px;
+  }
+  #copyright {
+    display: none;
+  }
+  footer {
+    height: 75px;
+  }
+  .main-heading {
+    width: 120%;
+    height: 300px;
+  }
+  .title {
+    top: 31%;
+  }
+  .title h1 {
+    font-size: 40px;
+  }
+  .subheading {
+    height: 300px;
+  }
+  .subtitle {
+    font-size: 40px;
+    margin-top: 213px;
+    margin-left: 13%;
+  }
+  .carousel {
+    height: 80%;
+  }
+}
+
+/*Tablet view*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #banner-message h1 {
+    font-size: 28px;
+  }
+  #banner-message h2 {
+    font-size: 40px;
+  }
+  #banner-message .container {
+    top: 71%;
+  }
+  #news, #events {
+    width: 600px;
+    left: 10%;
+  }
+  #copyright {
+    display: none;
+  }
+  footer {
+    height: 75px;
+  }
+}
+
+
+/* Navbar resize */
+@media only screen and (max-width: 767px) {
+  .navbar-brand img {
+    width: 160px;
+    height: 40px;
+  }
+  .carousel{
+    margin: 0;
+  }
+
+}

@@ -1,111 +1,10 @@
-html,body {
-    height:100%;
-    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
-    font-size:18px;
-}
-
-.navbar-custom {
-    margin: 0px;
-    background-color:#FFFFFF;
-    opacity:0.8;
-}
-
-ul.nav li.dropdown:hover ul.dropdown-menu {
-            display: block;
-}
-
-.navbar-toggle
-{
-    border:1px solid #444;
-}
-.icon-bar
-{
-    display:block;
-    width:22px;
-    height:2px;
-    border-radius:1px;
-    border:1px solid #444;
-}
-.navbar-brand{
-    padding:0px;
-}
-.navbar-brand img{
-    height: 50px;
-    width: 150px;
-    padding:0px;
-    float:left;
-}
-.nav.navbar-nav li a {
-    text-transform:uppercase;
-    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
-    font-size:18px;
-    font-color:black;
-    color:black;
-}
-
-
-img{
-    height:15%;
-    width:20%;
-}
-
-.company-social{
-    padding-bottom: 10px;
-    text-align:right;
-    list-style:none;
-}
-
-.company-social li{
-    display:inline-block;
-}
-
-.company-social{
-    margin-top:25px;
-}
-
-.company-social li a i, .contact-icon{
-    color:gray;
-}
-
-footer {
-    background-color:black;
-    padding:0px;
-    text-align:center;
-}
-
-headerp {
-    text-align:left;
-    color:gray;
-    padding-top: 10px;
-    margin: 0 0 10px;
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-
-header {
-    background-size: 100% 100%;
-    position: relative;
-    width:100%;
-    height:75%;
-    background:url(../images/sisters/sisters2.jpg);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.sisters-header {
+    background:url(../views/images/sisters/header.jpg);
 }
 
 section {
     text-align:center;
     padding:20px;
-}
-
-h1,h3 {
-    font-size:30px;
-    font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
 }
 
 
@@ -114,11 +13,11 @@ h1,h3 {
     width:100%;
 }
 
-#sisters .container {
+#profiles .container {
     padding-top:30px;
 }
 
-h2 {
+#profiles h2 {
     font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
     font-size:20px;
 }
@@ -136,20 +35,21 @@ h2 {
 .wrapper {
     padding:20px;
     background-color: rgba(128,0,128,0.1);
+    overflow: hidden;
 }
 
 #inner-wrapper{
     background-color: rgba(256,256,256,0.5);
 }
 
-h4 {
+#cabinet h1, #board .col-md-5 h1 {
     margin-bottom:0px;
     text-transform:uppercase;
     font-size:30px;
     color:rgba(128,0,128,0.5);
 }
 
-h5{
+#board h2 {
     text-transform:uppercase;
     color:rgba(128,0,128,0.8);
     font-size:20px;
@@ -178,4 +78,24 @@ hr{
 
 #left {
     float:left;
+}
+
+/* Mobile view */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #right, #left {
+    float: none;
+  }
+  #cabinet {
+    padding: 0;
+  }
+  #profile {
+    height: 70%;
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #profile {
+    height: 50%;
+    width: 50%;
+  }
 }

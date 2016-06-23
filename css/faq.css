@@ -1,144 +1,51 @@
-html,body {
-    height:100%;
-    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
-    font-size:18px;
+.faq-header {
+    background-color: #000;
 }
-
-.navbar-custom {
-    margin: 0px;
-    background-color:#FFFFFF;
-    opacity:0.8;
-}
-
-ul.nav li.dropdown:hover ul.dropdown-menu {
-    display: block;
-}
-
-.navbar-toggle
-{
-    border:1px solid #444;
-}
-.icon-bar
-{
-    display:block;
-    width:22px;
-    height:2px;
-    border-radius:1px;
-    border:1px solid #444;
-}
-.navbar-brand{
-    padding:0px;
-}
-.navbar-brand img{
-    height: 50px;
-    width: 150px;
-    padding:0px;
-    float:left;
-}
-.nav.navbar-nav li a {
-    text-transform:uppercase;
-    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
-    font-size:18px;
-    font-color:black;
-    color:black;
-}
-
-
-img{
-    height:15%;
-    width:20%;
-}
-
-.company-social{
-    padding-bottom: 10px;
-    text-align:right;
-    list-style:none;
-}
-
-.company-social li{
-    display:inline-block;
-}
-
-.company-social{
-    margin-top:25px;
-}
-
-.company-social li a i, .contact-icon{
-    color:gray;
-}
-
-footer {
-    background-color:black;
-    padding:0px;
-    text-align:center;
-}
-
-headerp {
-    text-align:left;
-    color:gray;
-    padding-top: 10px;
-    margin: 0 0 10px;
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-
-header {
-    text-align:center;
-    background-size: 100% 100%;
-    position: relative;
-    width:100%;
-    height:40%;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    border-bottom-style:solid;
-    border-bottom-color:black;
-    border-bottom-width:10px;
-}
-
-header .header-content {
-    position: relative;
-    width: 100%;
-    padding: 50px 50px;
-    text-align: center;
-}
-
-header .header-content .header-content-inner{
-    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
-}
-
-h1 {
-    color:black;
-    text-transform:uppercase;
-    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
-    font-size:50px;
-    margin-top: 9%;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing:2px;
+.faq-header h1 {
+  width: 100%;
+  margin-top: 300px;
+  color:white;
+  text-transform:uppercase;
+  font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+  font-size:50px;
+  font-weight: 700;
+  letter-spacing:2px;
 }
 
 section {
-    text-align:center;
-    padding:40px;
+  margin: 30px;
 }
 
 #left {
     margin-top:2%;
 }
 
-h2 {
-    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+h1 {
     color:rgba(128,0,128,0.5);
-
 }
 
 section .container {
-    padding:50px;
+    padding: 50px;
     background-color:rgba(128,128,128,0.1);
+}
+
+/* Mobile view */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .faq-header h1 {
+    font-size: 30px;
+    margin-top: 140px;
+  }
+  section h1 {
+    font-size: 24px;
+  }
+  section {
+    margin: 15px;
+  }
+}
+/* Tablet view */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .faq-header h1 {
+    font-size: 40px;
+    margin-top: 260px;
+  }
 }

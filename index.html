@@ -1,69 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>UIUC aKDPhi | Upsilon Chapter</title>
+
     <!--fonts-->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Mallanna' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Mallanna:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Buda:300' rel='stylesheet' type='text/css'>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>UIUC aKDPhi | Upsilon Chapter</title>
 
-    <!-- Bootstrap Core CSS -->
+
+    <!-- Stylesheets -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+
   </head>
 
+<header>
+  <div id="header"></div>
+</header>
 
   <body id="page-top">
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-             <span class="sr-only">Toggle navigation</span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-              <img src='./images/banner/logo.jpg' alt=>
-            </a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="about.html" >About</a>
-              <ul class="dropdown-menu">
-                <li><a href="history.html">History</a></li>
-                <li><a href="philanthropy.html">Philanthropy</a></li>
-                <li><a href="chapters.html">Chapters</a></li>
-              </ul>
-            </li>
-              <li class="dropdown">
-              <a href="sisters.html" >Sisters</a>
-              <ul class="dropdown-menu">
-                <li><a href="roster.html">Roster</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="recruitment.html" >Recruitment</a>
-              <ul class="dropdown-menu">
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="past.html">Past Recruitments</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
-    <header id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel slide">
         <!-- Indicators -->
-        <!-- <ol class="carousel-indicators">
+        <ol class="carousel-indicators" style="opacity: 0">
             <li data-target="#myCarousel" data-slide-to="0"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -73,7 +38,7 @@
             <li data-target="#myCarousel" data-slide-to="6"></li>
             <li data-target="#myCarousel" data-slide-to="7"></li>
             <li data-target="#myCarousel" data-slide-to="8"></li>
-        </ol> -->
+        </ol>
 
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
@@ -83,115 +48,69 @@
                 <div class="carousel-caption">
                 </div>
             </div>
-            <!-- <div class="item">
+            <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
-                <!-- <div class="fill" style="background-image:url('images/banner/banner1.jpg');"></div>
-                <div class="carousel-caption">
-                </div> -->
-            <!-- </div>
-            <div class="item"> -->
-                <!-- Set the third background image using inline CSS below. -->
-                <!-- <div class="fill" style="background-image:url('images/banner/banner2.5.jpg');"></div>
+                <div class="fill" style="background-image:url('images/banner/banner1.jpg');"></div>
                 <div class="carousel-caption">
                 </div>
             </div>
-            <div class="item"> -->
+            <div class="item">
                 <!-- Set the fourth background image using inline CSS below. -->
-                <!-- <div class="fill" style="background-image:url('images/banner/banner2.jpg');"></div>
-                <div class="carousel-caption">
-                </div>
-            </div> -->
-                <!-- <div class="item"> -->
-                <!-- Set the fifth background image using inline CSS below. -->
-                <!-- <div class="fill" style="background-image:url('images/banner/banner3.jpg');"></div>
+                <div class="fill" style="background-image:url('images/banner/banner2.jpg');"></div>
                 <div class="carousel-caption">
                 </div>
             </div>
-            <div class="item"> -->
+                <div class="item">
                 <!-- Set the fifth background image using inline CSS below. -->
-                <!-- <div class="fill" style="background-image:url('images/banner/banner4.jpg');"></div>
+                <div class="fill" style="background-image:url('images/banner/banner3.jpg');"></div>
                 <div class="carousel-caption">
                 </div>
             </div>
-            <div class="item"> -->
+            <div class="item">
                 <!-- Set the fifth background image using inline CSS below. -->
-                <!-- <div class="fill" style="background-image:url('images/banner/banner5.jpg');"></div>
+                <div class="fill" style="background-image:url('images/banner/banner4.jpg');"></div>
                 <div class="carousel-caption">
                 </div>
             </div>
-            <div class="item"> -->
+            <div class="item">
                 <!-- Set the fifth background image using inline CSS below. -->
-                <!-- <div class="fill" style="background-image:url('images/banner/banner7.jpg');"></div>
+                <div class="fill" style="background-image:url('images/banner/banner5.jpg');"></div>
                 <div class="carousel-caption">
                 </div>
-            </div> -->
-            <!-- <div class="item"> -->
+            </div>
+            <div class="item">
                 <!-- Set the fifth background image using inline CSS below. -->
-                <!-- <div class="fill" style="background-image:url('images/banner/banner8.jpg');"></div>
+                <div class="fill" style="background-image:url('images/banner/banner6.jpg');"></div>
                 <div class="carousel-caption">
                 </div>
-            </div>-->
+            </div>
         </div>
 
 
         <!-- Controls -->
-        <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="opacity:0">
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="icon-prev"></span>
         </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next" style="opacity:0">
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <span class="icon-next"></span>
-        </a> -->
+        </a>
 
 
-    </header>
+    </div>
 
-    <!--Number Infographic-->
-    <section id="numbers">
-        <div class="container">
-          <div class="row text-center">
-              <div class="col-md-3 text-center">
-                <div class="circle-wrapper">
-                  <div class="circle-text-center">
-                    <h3>6000</h3>
-                    <p><strong>sisters</strong></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 text-center">
-                <div class="circle-wrapper">
-                  <div class="circle-text-center">
-                    <h3>52</h3>
-                    <p><strong>chapters</strong></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 text-center">
-                <div class="circle-wrapper">
-                  <div class="circle-text-center">
-                    <h3>4</h3>
-                    <p><strong>letters</strong></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 text-center">
-                <div class="circle-wrapper">
-                  <div class="circle-text-center">
-                    <h3>1</h3>
-                   <p><strong>sisterhood</strong></p>
-                  </div>
-                </div>
-              </div>
-          </div>
-        <div>
-    </section>
-
+  <div id="banner-message">
+    <div class="container">
+      <h1>University of Illinois at Urbana-Champaign</h1>
+        <h2>αΚΔΦ</h2>
+        <h1>Upsilon Chapter est. 2000</h1>
+      </h1>
+    </div>
+  </div>
 
       <!--Welcome Message-->
     <section id="welcome">
+      <h1 class="section-heading"><strong>Welcome to the Upsilon Chapter of alpha Kappa Delta Phi!</strong></h1>
         <div class="container">
-          <div class="row">
-            <h1 class="section-heading"><strong>Welcome to the Upsilon Chapter of alpha Kappa Delta Phi!</strong></h1>
-          </div>
           <div class="row">
             <p>We are the sisters at the 28th chapter of alpha Kappa Delta Phi International Sorority, Inc. at the University of Illinois at Urbana-Champaign!</br>
             <br>
@@ -199,68 +118,63 @@
             Here you will be able to find the latest news and updates from the lovely ladies of alpha Kappa Delta Phi at UIUC.</br>
             <br>
             If you have any questions, don’t hesitate to contact our chapter president at <a href="mailto:#">uiuc.kdphi.president@gmail.com</a>.</br></p>
-        </div>
+          </div>
         </div>
     </section>
 
 
       <!--News & Upcoming Events-->
-    <section id="news">
+    <section id="announcements">
         <div class="container">
           <!--News-->
           <div class"boxed-white">
-            <div class="col-md-6">
-               <h4>news</h4>
-              <div class="wrapper" style="background-image:url('./images/classes/ab_index.jpg')">
+            <div class="col-md-6" id="news">
+               <h1 class="text-left">news</h1>
+              <div class="wrapper wrapper-lg" style="background-image:url('views/images/classes/ab_index.jpg')">
                 <p><span>Congratulations to our Spring 2016 class,<br></br>the Alpha Beta BOMB!ebees! Congrats on
                   <br></br>all of your hard work, we can't wait to see <br></br>the amazing things you'll accomplish in the future!</span></p>
               </div>
+              <div class="wrapper-sm">
+                    <img src="views/images/classes/ab_index.jpg"></img>
+                    <div class="row">
+                      <p>Congratulations to our Spring 2016 class, the Alpha Beta BOMB!ebees! Congrats on
+                      all of your hard work, we can't wait to see the amazing things you'll accomplish in the future!</p>
+                    </div>
+              </div>
             </div>
+          </div>
 
             <!--Upcoming Events-->
-            <div class="col-md-6">
-              <h4>Upcoming Events</h4> <div class="boxed-white">
+            <div class="col-md-6" id="events">
+              <h1 class="text-left">Upcoming Events</h1>
+              <div class="boxed-white">
               <!--<div  class="col-sm-6 col-md-6" id="event">
                   <img src='./images/about/philanthropy/ribbon.png' class="img-responsive center-block">
               </div>-->
-              <div id ="event">
+                <div id ="event">
                  <!-- <img src="images/rush/sp16.jpg" class="img-responsive center-block"><br> -->
                 <!-- <p1>Interested in joining? Come out to UIUC aKDPhi's Spring 2016 Rush, "Be Limitless"! Click <a href="http://uiucakdphi.org/recruitment.html" target="_blank">here</a> for more information!<br></br><br></br><br></br></p1> -->
-                <p1>Check back for new events!<p1>
+                <p>Check back for new events!<p>
               </div>
-            </div> </div></div></div>
-
-        </div>
-    </section>
-
-    <footer>
-      <div class="boxed-grey">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <headerp>Copyright &copy; UIUC aKDPhi 2015. All rights reserved.</headerp>
-            </div>
-            <div class="col-md-6">
-              <address>
-                  <ul class="company-social">
-                    <li><a href="https://www.facebook.com/uiuc.akdphi" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                    <li><a href="https://www.instagram.com/uiucakdphi" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
-                  </ul>
-              </address>
             </div>
           </div>
         </div>
-    </footer>
+    </section>
+
+    <footer id="footer"></footer>
+
 
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.scrollTo.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#header").load("partials/header-main.html");
+        $("#footer").load("partials/footer.html");
+    });
+    </script>
+
 
     <!-- Script to Activate the Carousel -->
     <script>
@@ -268,8 +182,6 @@
         interval: 5000 //changes the speed
       })
     </script>
-
-    <!-- Plugin JavaScript -->
 
 
     </body>

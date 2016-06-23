@@ -1,101 +1,5 @@
-html,body {
-    height:100%;
-    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
-    font-size:18px;
-}
-
-.navbar-custom {
-    margin: 0px;
-    background-color:#FFFFFF;
-    opacity:0.8;
-}
-
-ul.nav li.dropdown:hover ul.dropdown-menu {
-            display: block;
-}
-
-.navbar-toggle
-{
-    border:1px solid #444;
-}
-.icon-bar
-{
-    display:block;
-    width:22px;
-    height:2px;
-    border-radius:1px;
-    border:1px solid #444;
-}
-.navbar-brand{
-    padding:0px;
-}
-.navbar-brand img{
-    height: 50px;
-    width: 150px;
-    padding:0px;
-    float:left;
-}
-.nav.navbar-nav li a {
-    text-transform:uppercase;
-    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
-    font-size:18px;
-    font-color:black;
-    color:black;
-}
-
-
-img{
-    height:15%;
-    width:20%;
-}
-
-.company-social{
-    padding-bottom: 10px;
-    text-align:right;
-    list-style:none;
-}
-
-.company-social li{
-    display:inline-block;
-}
-
-.company-social{
-    margin-top:25px;
-}
-
-.company-social li a i, .contact-icon{
-    color:gray;
-}
-
-footer {
-    background-color:black;
-    padding:0px;
-    text-align:center;
-}
-
-headerp {
-    text-align:left;
-    color:gray;
-    padding-top: 10px;
-    margin: 0 0 10px;
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-
-header {
-    background-size: 100% 100%;
-    position: relative;
-    width:100%;
-    height:75%;
-    background:url(../images/rush/rush.jpg);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.rush-header{
+    background:url(../views/images/rush/rush.jpg);
 }
 
 section {
@@ -103,17 +7,10 @@ section {
     padding:20px;
 }
 
-h1,h2,h3,h4,h5,h6,h7 {
-    font-family:"Quicksand","Helvetica Neue",Arial,sans-serif;
-}
 
-h1 {
-    font-size:30px;
-}
-
-h2 {
+#title .wrapper h1 {
     padding:20px;
-    font-size:35px; 
+    font-size:35px;
     text-transform:uppercase;
     color:white;
 }
@@ -126,9 +23,6 @@ h2 {
     padding:20px;
 }
 
-h3{
-    font-size:24px;
-}
 
 #about .wrapper {
     margin:0 auto;
@@ -158,16 +52,12 @@ h3{
     background-color:rgba(256,256,256,0.4);
 }
 
-h4,h5,h6 {
+#info h1, #rush h1, #more-info-title h1 {
     text-transform:uppercase;
-    font-size:40px;
     color:rgba(128,0,128,0.5);
 }
 
-h4 {
-    margin-bottom:0px;
-    text-align:center;
-}
+
 
 p1 {
     font-size:14px;
@@ -180,32 +70,37 @@ p1 {
     width:65%;
 }
 
-h5{
-    text-align:center;
-    padding-bottom:10px;
-}
 
-h6{
+#more-info-title h1 {
     text-align:left;
     padding-bottom:0px;
     padding-left:10%;
 }
-h7{
+
+#more-info .col-md-4 h1 {
     font-size:20px;
     text-align:center;
+    color:white;
 }
 
 #more-info {
     background-color:#000;
     margin-bottom:30px;
+    text-align: center;
 }
 
-#more-info p,h7{
-    color:white;
+#more-info p {
+  color: white;
 }
 
-#column-1 {
-    margin-top:3%;
+#more-info #column-2 a {
+  color: white;
+  text-decoration: none;
+}
+
+
+#more-info #column-1 {
+    margin-top: 2%;
     padding:20px;
     border-style:solid;
     border-width:2px;
@@ -232,7 +127,54 @@ p3{
     color:rgba(128,128,128,0.5);
 }
 
-#fb-sm {
-    color:rgba(256,256,256,0.3);
+
+#more-info .col-sm-1 {
+  line-height: 40px;
 }
 
+#more-info .col-sm-4 {
+  padding-top: 5px;
+  line-height: 30px;
+}
+
+/* Mobile view */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  h1, #title .wrapper h1 {
+    font-size: 24px;
+  }
+  #title .wrapper {
+    padding: 5px;
+  }
+  #info .container {
+    width: 100%;
+  }
+  #rush .container, #rush img {
+    width: 100%;
+  }
+  #column-1 {
+    margin-bottom: 10px;
+    width: 90%;
+    left: 5.5%;
+  }
+}
+
+/*Tablet view*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  h1, #title .wrapper h1 {
+    font-size: 24px;
+  }
+  #title .wrapper {
+    padding: 5px;
+  }
+  #info .container {
+    width: 100%;
+  }
+  #rush .container, #rush img {
+    width: 100%;
+  }
+  #column-1, #column-2, #column-3 {
+    margin-bottom: 20px;
+    width: 50%;
+    left: 24%;
+  }
+}
