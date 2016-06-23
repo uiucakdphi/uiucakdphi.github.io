@@ -30,7 +30,7 @@ html,body {
 }
 
 section {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 header {
@@ -408,6 +408,56 @@ headerp {
     -webkit-margin-end: 0px;
 }
 
+/*------------ Contact Form -------------------*/
+#contact-form .container {
+  /*background: rgba(51,0,51,0.1);*/
+  padding: 50px;
+}
+#contact-form .fa-envelope, .col-md-4 {
+  color: #330033;
+  padding-top: 2%;
+}
+.input-box-sm, .input-box-lg {
+  width: 100%;
+  margin: 10px;
+  height: 40px;
+  padding: 10px;
+  border: solid 1px #e0e0e0;
+  background: #fdfdfd;
+  outline-color: #e5ccff;
+}
+.input-box-lg {
+  height: 200px;
+}
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+.btn {
+  float: right;
+  background: #330033;
+  color: #fff;
+}
+.btn:hover {
+  color: #fff;
+  background: #440044;
+}
+.board h2 {
+    text-transform:uppercase;
+    color:rgba(128,0,128,0.8);
+    font-size:20px;
+}
+.board .container {
+  background: rgba(51,0,51,0.1);
+  padding: 20px;
+}
+@media only screen and (min-width: 992px) {
+  .right-border {
+    border-right: solid 1px rgba(0,0,0,0.1);
+  }
+}
+
+
 /*------------- Web Responsive ---------------*/
 /* Mobile view */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -468,6 +518,15 @@ headerp {
   }
   .carousel {
     height: 90%;
+  }
+  form {
+    width: 300px;
+  }
+  #contact-form .col-md-4 {
+    padding: 0;
+  }
+  #contact-form .container {
+    padding-top: 0px;
   }
 }
 
