@@ -236,7 +236,7 @@ a.dropdown-toggle.main-nav {
   opacity: 0.85;
   background-color: #190033;
   position: absolute;
-  top: 67%;
+  top: 69%;
   width: 100%;
   padding: 10px;
 }
@@ -471,7 +471,7 @@ form {
     font-size: 32px;
   }
   #banner-message .container {
-    top: 55.5%;
+    top: 64%;
   }
   .wrapper-lg {
     display: none;
