@@ -1,0 +1,94 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+html	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^<html>$/;"	function	line:2
+head	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^  <head>$/;"	function	line:3
+title	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <title>UIUC aKDPhi | Upsilon Chapter<\/title>$/;"	function	line:4
+link	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <link href="font-awesome\/css\/font-awesome.min.css" rel="stylesheet" type="text\/css">$/;"	function	line:7
+link	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <link href='http:\/\/fonts.googleapis.com\/css?family=Quicksand' rel='stylesheet' type='text\/css'>$/;"	function	line:8
+link	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <link href='http:\/\/fonts.googleapis.com\/css?family=Mallanna:300' rel='stylesheet' type='text\/css'>$/;"	function	line:9
+link	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <link href='http:\/\/fonts.googleapis.com\/css?family=Buda:300' rel='stylesheet' type='text\/css'>$/;"	function	line:10
+meta	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <meta charset="utf-8">$/;"	function	line:12
+meta	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <meta http-equiv="X-UA-Compatible" content="IE=edge">$/;"	function	line:13
+meta	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <meta name="viewport" content="width=device-width, initial-scale=1">$/;"	function	line:14
+script	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <script src="js\/bootstrap.min.js"><\/script>$/;"	function	line:17
+script	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <script src="js\/jquery-3.0.0.min.js"><\/script>$/;"	function	line:18
+script	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <script type="text\/javascript">$/;"	function	line:19
+link	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <link href="css\/bootstrap.min.css" rel="stylesheet">$/;"	function	line:28
+link	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <link rel="stylesheet" href="css\/style.css">$/;"	function	line:29
+header	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^<header>$/;"	function	line:33
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^  <div id="header"><\/div>$/;"	function	line:34
+body	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^  <body id="page-top">$/;"	function	line:37
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <div id="myCarousel" class="carousel slide">$/;"	function	line:39
+ol	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^        <ol class="carousel-indicators" style="opacity: 0">$/;"	function	line:41
+li	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <li data-target="#myCarousel" data-slide-to="0"><\/li>$/;"	function	line:42
+li	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <li data-target="#myCarousel" data-slide-to="1"><\/li>$/;"	function	line:43
+li	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <li data-target="#myCarousel" data-slide-to="2"><\/li>$/;"	function	line:44
+li	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <li data-target="#myCarousel" data-slide-to="3"><\/li>$/;"	function	line:45
+li	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <li data-target="#myCarousel" data-slide-to="4"><\/li>$/;"	function	line:46
+li	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <li data-target="#myCarousel" data-slide-to="5"><\/li>$/;"	function	line:47
+li	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <li data-target="#myCarousel" data-slide-to="6"><\/li>$/;"	function	line:48
+li	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <li data-target="#myCarousel" data-slide-to="7"><\/li>$/;"	function	line:49
+li	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <li data-target="#myCarousel" data-slide-to="8"><\/li>$/;"	function	line:50
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^        <div class="carousel-inner">$/;"	function	line:54
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <div class="item active">$/;"	function	line:55
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="fill" style="background-image:url('images\/banner\/banner0.jpg');"><\/div>$/;"	function	line:57
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="carousel-caption">$/;"	function	line:58
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <div class="item">$/;"	function	line:61
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="fill" style="background-image:url('images\/banner\/banner1.jpg');"><\/div>$/;"	function	line:63
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="carousel-caption">$/;"	function	line:64
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <div class="item">$/;"	function	line:67
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="fill" style="background-image:url('images\/banner\/banner2.jpg');"><\/div>$/;"	function	line:69
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="carousel-caption">$/;"	function	line:70
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="item">$/;"	function	line:73
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="fill" style="background-image:url('images\/banner\/banner3.jpg');"><\/div>$/;"	function	line:75
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="carousel-caption">$/;"	function	line:76
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <div class="item">$/;"	function	line:79
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="fill" style="background-image:url('images\/banner\/banner4.jpg');"><\/div>$/;"	function	line:81
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="carousel-caption">$/;"	function	line:82
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <div class="item">$/;"	function	line:85
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="fill" style="background-image:url('images\/banner\/banner5.jpg');"><\/div>$/;"	function	line:87
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="carousel-caption">$/;"	function	line:88
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <div class="item">$/;"	function	line:91
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="fill" style="background-image:url('images\/banner\/banner6.jpg');"><\/div>$/;"	function	line:93
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div class="carousel-caption">$/;"	function	line:94
+a	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^        <a class="left carousel-control" href="#myCarousel" data-slide="prev">$/;"	function	line:101
+span	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <span class="icon-prev"><\/span>$/;"	function	line:102
+a	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^        <a class="right carousel-control" href="#myCarousel" data-slide="next">$/;"	function	line:104
+span	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <span class="icon-next"><\/span>$/;"	function	line:105
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^  <div id="banner-message">$/;"	function	line:111
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <div class="container">$/;"	function	line:112
+h	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^      <h1>University of Illinois at Urbana-Champaign<\/h1>$/;"	function	line:113
+h	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^        <h2>αΚΔΦ<\/h2>$/;"	function	line:114
+h	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^        <h1>Upsilon Chapter est. 2000<\/h1>$/;"	function	line:115
+section	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <section id="welcome">$/;"	function	line:121
+h	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^      <h1 class="section-heading"><strong>Welcome to the Upsilon Chapter of alpha Kappa Delta Phi!<\/strong><\/h1>$/;"	function	line:122
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^        <div class="container">$/;"	function	line:123
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^          <div class="row">$/;"	function	line:124
+p	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <p>We are the sisters at the 28th chapter of alpha Kappa Delta Phi International Sorority, Inc. at the University of Illinois at Urbana-Champaign!<\/br>$/;"	function	line:125
+br	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <br>$/;"	function	line:126
+br	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <br>$/;"	function	line:129
+section	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <section id="announcements">$/;"	function	line:137
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^        <div class="container">$/;"	function	line:138
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^          <div class"boxed-white">$/;"	function	line:140
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <div class="col-md-6" id="news">$/;"	function	line:141
+h	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^               <h1 class="text-left">news<\/h1>$/;"	function	line:142
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^              <div class="wrapper wrapper-lg" style="background-image:url('views\/images\/classes\/ab_index.jpg')">$/;"	function	line:143
+p	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <p><span>Congratulations to our Spring 2016 class,<br><\/br>the Alpha Beta BOMB!ebees! Congrats on$/;"	function	line:144
+br	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                  <br><\/br>all of your hard work, we can't wait to see <br><\/br>the amazing things you'll accomplish in the future!<\/span><\/p>$/;"	function	line:145
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^              <div class="wrapper-sm">$/;"	function	line:147
+img	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                    <img src="views\/images\/classes\/ab_index.jpg"><\/img>$/;"	function	line:148
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                    <div class="row">$/;"	function	line:149
+p	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                      <p>Congratulations to our Spring 2016 class, the Alpha Beta BOMB!ebees! Congrats on$/;"	function	line:150
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^            <div class="col-md-6" id="events">$/;"	function	line:158
+h	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^              <h1 class="text-left">Upcoming Events<\/h1>$/;"	function	line:159
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^              <div class="boxed-white">$/;"	function	line:160
+img	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                  <img src='.\/images\/about\/philanthropy\/ribbon.png' class="img-responsive center-block">$/;"	function	line:162
+div	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <div id ="event">$/;"	function	line:164
+img	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                 <img src="views\/images\/rush\/fa16.jpg" class="img-responsive center-block"><br>$/;"	function	line:165
+p	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^                <p1>Interested in joining? Come out to UIUC aKDPhi's Fall 2016 Rush, Run Home to alpha Kappa Delta Phi! Click <a href="http:\/\/uiucakdphi.org\/views\/recruitment.html" target="_blank">here<\/a> for more information!<br><\/br><br><\/br><br><\/br><\/p1>$/;"	function	line:166
+footer	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <footer id="footer"><\/footer>$/;"	function	line:174
+script	/Users/Crong/Documents/uiucakdphi.github.io/index.html	/^    <script>$/;"	function	line:179
