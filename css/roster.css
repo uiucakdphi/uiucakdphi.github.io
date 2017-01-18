@@ -2,10 +2,11 @@
   font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
   font-size: 16px;
   text-transform: uppercase;
-  color: gray;
+  color: rgba(128,0,128,0.7);
 }
 #class span, #class h1 {
   display: inline;
+  margin-bottom:5px !important;
 }
 .roster-header {
   background: #110011;
@@ -19,9 +20,10 @@
 }
 
 #class h1 {
-    margin-left:5%;
+    /*margin-left:5%;*/
     font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
     text-align: left !important;
+    color: #190033;
 }
 
 section .container .row .col-md-5 p{
@@ -30,7 +32,7 @@ section .container .row .col-md-5 p{
 
 
 #class p, #class p1 {
-    font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
+    font-family:'Mallanna','Helvetica Neue',Arial,sans-serif;
     font-size:18px;
 }
 

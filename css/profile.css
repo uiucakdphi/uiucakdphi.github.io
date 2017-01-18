@@ -42,9 +42,14 @@ section .col-md-6 {
     padding:20px;
 }
 
-h2, p{
+h2{
     font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
     display:inline;
+}
+
+p{
+  font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
+  display:inline;
 }
 
 section {

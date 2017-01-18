@@ -18,7 +18,7 @@ section {
 #title .wrapper{
     /*border-style:solid;
     border-color:rgba(51,0,102,0.3);*/
-    background-color:rgba(51,0,102,0.3);
+    background-color:#a9c1e8;
     margin:20px;
     padding:20px;
 }
@@ -28,7 +28,7 @@ section {
     margin:0 auto;
     height:350px;
     width:500px;
-    background-color:rgba(128,128,128,0.2);
+    background-color:#a9c1e8;
 }
 
 #about {
@@ -43,18 +43,17 @@ section {
 
 #rush .container {
     padding:40px;
-    background-color:rgba(51,0,102,0.1);
+    background-color:#dce6f7;
     width:60%;
 }
 
 #rush #events {
     padding:20px;
-    background-color:rgba(256,256,256,0.4);
 }
 
 #info h1, #rush h1, #more-info-title h1 {
     text-transform:uppercase;
-    color:rgba(128,0,128,0.5);
+    color:#7da3c4;
 }
 
 
@@ -64,7 +63,7 @@ p1 {
 }
 
 #info .container {
-    border-color:rgba(128,0,128,0.2);
+    border-color:#7da3c4;
     padding:20px;
     border-style:dashed;
     width:65%;
@@ -119,7 +118,7 @@ iframe {
 p2 {
     text-transform:uppercase;
     font-weight:2px;
-    color:rgba(128,0,128,0.5);
+    color:#7da3c4;
 }
 
 p3{
