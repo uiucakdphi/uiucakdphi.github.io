@@ -22,7 +22,7 @@
 #class h1 {
     /*margin-left:5%;*/
     font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
-    text-align: left !important;
+    text-align: left;
     color: #190033;
 }
 
@@ -81,12 +81,18 @@ section {
   section .container .row .col-md-6 {
     text-align: center;
   }
+  #class h1 {
+      text-align: center !important;
+  }
 }
 /* Tablet view */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .roster-header h1 {
     font-size: 40px;
     margin-top: 377px;
+  }
+  #class h1 {
+      text-align: center !important;
   }
   h1 {
     text-align: center !important;

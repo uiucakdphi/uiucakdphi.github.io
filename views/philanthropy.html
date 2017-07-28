@@ -14,16 +14,21 @@
 
     <!-- Stylesheets -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/philanthropy.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/philanthropy.css"> <!-- philanthropy stylsheet -->
+    <link rel="stylesheet" href="../css/style.css"> <!-- Main stylesheet -->
   </head>
 
+
+
+  <!-- Load navigation-->
   <header>
     <div id="header"></div>
   </header>
 
+
   <body id="page-top">
 
+  <!-- Main header - styling in style.css -->
     <div class="subheading philanthropy-header">
       <div class="header-content">
         <div class="header-inner-content">
@@ -31,31 +36,49 @@
       </div>
     </div>
 
+    <!-- Page title -->
     <div class="title">
       <div class="container">
         <h1>Philanthropy</h1>
       </div>
     </div>
 
+
+
+    <!-- About aKDPhi and BCA -->
     <section id="bca-introduction">
+
       <div class="container">
+
         <div class="row">
-          <h1>Breast Cancer Awareness</h1>
+
+          <h1>Breast Cancer Awareness</h1> 
+
+          <!-- Left column with Avon image -->
           <div class="col-md-4">
             <img id="bca" src='./images/about/philanthropy/avon.png'>
-          </div>
+          </div> 
+
+          <!-- Right column with summary -->
           <div class="col-md-8">
             alpha Kappa Delta Phi is a proud exclusive member of the Avon Breast Cancer Crusade. Nationwide, we have raised over $250,000 throughout the years for breast cancer research. At the University of Illinois, fall is a busy time of year for us as we gear up for National Breast Cancer Awareness Month in October. We kick off the new school year by volunteering in Walk for Hope and Race for the Cure in Chicago. You can also find our alums participating in the races! As we volunteer with other Midwest aKDPhi sisters from University of Illinois, Chicago, Purdue University, and University of Chicago, these charity events allow us to see fellow sisters as well as our alums while raising money for a good cause. Back on campus, you can find us every October on the Quad selling BCA t-shirts that we design ourselves. Rain or shine, we are out there every day of the month. We also sell pink ribbon pins and on some days, BCA cupcakes!
           </div>
-        </div>
-      </div>
-    </section>
 
+        </div> <!-- end row -->
+
+      </div> <!-- end container -->
+
+    </section> <!-- end about section-->
+
+
+
+    <!-- Images -->
     <section id="bca-images">
+
       <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <img src='./images/about/philanthropy/volunteer.jpg'>
+            <img src='./images/about/philanthropy/sign.png'>
           </div>
           <div class="col-md-3">
             <img src='./images/about/philanthropy/cupcakes.jpg'>
@@ -66,29 +89,50 @@
           <div class="col-md-3">
             <img src='./images/about/philanthropy/volunteer2.jpg'>
           </div>
-        </div>
-      </div>
+        </div> <!-- end row -->
+      </div> <!-- end container -->
+
     </section>
 
+    <!-- section about BCDA -->
     <section id="date-auction">
+
       <div class="container">
+
         <div class="row">
+
+          <!-- Description -->
           <div class="col-md-7">
             <h1>Breast Cancer Date Auction</h1><br>
             <p class="text-justify">Our biggest event for National Breast Cancer Awareness Month is our annual Breast Cancer Date Auction. Sisters, as well as volunteers from other Greek organizations and Asian American organizations, are auctioned off with promises of fine dining, home cooking, personal tutoring, guitar lessons, and much more. With silent auctions, raffles, guest speakers and performances including Dance2XS, The Other Guys, Girls Next Door, and much more, our annual Breast Cancer Date Auction is great opportunity for people to enjoy themselves and help support the battle against breast cancer.</p>
           </div>
+
+          <!-- Images from past BCDA's-->
           <div class="col-md-5">
+
+            <!-- Left column -->
             <div id="left" class="col-md-6">
               <img id="top" src='./images/about/philanthropy/gnd.jpg'><br>
               <img src='./images/about/philanthropy/yoyo.jpg'>
-          </div>
+            </div> <!-- end left col -->
+
+          <!-- Right column -->
           <div id="right" class="col-md-6">
             <img src='./images/about/philanthropy/auction.jpg'>
-          </div>
-        </div>
-      </div>
-    </div>
-    </section>
+          </div> <!-- end right col -->
+
+        </div> <!-- end images -->
+
+      </div> <!-- end row -->
+
+    </div> <!-- end container -->
+
+    </section> <!-- end BCDA -->
+
+
+
+
+    <!-- Calendar for BCA events. Uncomment during the month of October, connect to BCA calendar in Google Calendars. -->
 
 <!--
      <section id="calendar">
@@ -100,7 +144,7 @@
     <footer id="footer"></footer>
 
 
-      <!-- jQuery -->
+      <!-- Load scripts -->
       <script src="../js/jquery-3.0.0.min.js"></script>
       <script type="text/javascript">
         $(document).ready(function() {

@@ -14,7 +14,7 @@
 
     <!-- Stylesheets -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css"> <!-- Main stylesheet -->
   </head>
 
   <header>
@@ -30,6 +30,7 @@
       </div>
     </div>
 
+    <!-- Contact form using Formspree, which sends an email to the president's email. -->
     <section id="contact-form">
       <div class="container">
         <div class="row">
@@ -47,48 +48,80 @@
               <input type="submit" value="Send" class="btn btn-lg">
 
               <input type="hidden" name="_next" value="/views/thanks.html" />
-              <input type="hidden" name="_subject" value="New message from uiucakdphi.org" />
+
+              <!-- subject line of the email -->
+              <input type="hidden" name="_subject" value="New message from uiucakdphi.org" /> 
             </form>
           </div>
         </div>
       </div>
-    </section>
+    </section> <!-- end contact form -->
 
 
-    <section class="board">
-      <div class="container">
+    <!-- Contact info for exec board -->
+    <section id="contact">
+      <div class="container text-center">
         <div class="row">
-          <div class="col-md-3 right-border">
-            <h2>President</h2>
-            <p>Sally Wu</p>
-             <p>
-            <a href="mailto:uiuc.kdphi.president@gmail.com">uiuc.kdphi.president@gmail.com</a>
-            </p>
+
+        <!-- Exec board image -->
+          <div class="col-md-6">
+            <img src="./images/sisters/exec.jpg"/>
           </div>
-          <div class="col-md-3 right-border">
-            <h2>VP Internal</h2>
-            <p>Vanessa Wang</p>
-             <p>
-            <a href="mailto:uiuc.kdphi.vpinternal@gmail.com">uiuc.kdphi.vpinternal@gmail.com</a>
-            </p>
-          </div>
-          <div class="col-md-3 right-border">
-            <h2>VP External</h2>
-            <p>Diana Zhu</p>
-             <p>
-            <a href="mailto:uiuc.akdphi.vpexternal@gmail.com">uiuc.akdphi.vpexternal@gmail.com</a>
-            </p>
-          </div>
-          <div class="col-md-3">
-            <h2>VP Service</h2>
-            <p>Jasmine Wang</p>
-             <p>
-            <a href="mailto:uiuc.kdphi.service@gmail.com">uiuc.kdphi.service@gmail.com</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+
+          <!-- Exec board emails -->
+          <div class="col-md-6 board">
+
+          <!-- Row 1-->
+            <div class="row">
+
+                <h2>President</h2>
+                <p>Sally Wu</p>
+                <p><a href="mailto:uiuc.kdphi.president@gmail.com">uiuc.kdphi.president@gmail.com</a></p>
+                <hr>
+
+            </div> <!-- end row 1 -->
+
+            <!-- Row 2-->
+            <div class="row">
+
+              <div class="col-md-6">
+                  <h2>VP Internal</h2>
+                  <p>Vanessa Wang</p>
+                   <p><a href="mailto:uiuc.kdphi.vpinternal@gmail.com">uiuc.kdphi.vpinternal@gmail.com</a></p>
+                   <hr>
+                </div>
+
+                <div class="col-md-6">
+                  <h2>VP External</h2>
+                  <p>Diana Zhu</p>
+                  <p><a href="mailto:uiuc.akdphi.vpexternal@gmail.com">uiuc.akdphi.vpexternal@gmail.com</a></p>
+                  <hr>
+                </div>
+
+            </div> <!-- end row 2 -->
+
+            <!-- Row 3 -->
+            <div class="row">
+
+              <div class="col-md-6">
+                  <h2>VP Service</h2>
+                  <p>Teresa Liu</p>
+                   <p><a href="mailto:uiuc.kdphi.service@gmail.com">uiuc.kdphi.service@gmail.com</a></p>
+                   <hr>
+                </div>
+
+                <div class="col-md-6">
+                  <h2>VP Finance</h2>
+                  <p>Hitomi Hayashi</p>
+                  <p><a href="mailto:uiuc.akdphi.treasurer@gmail.com">uiuc.akdphi.treasurer@gmail.com</a></p>
+                </div>
+
+            </div> <!-- end row 3 -->
+
+          </div> <!-- end exec contact info -->
+        </div> <!-- end row -->
+      </div> <!-- end container -->
+    </section> <!-- end exec contact -->
 
     <footer id="footer"></footer>
 
