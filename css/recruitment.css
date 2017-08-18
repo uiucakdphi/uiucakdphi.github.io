@@ -43,7 +43,7 @@ section {
 
 #rush .container {
     padding:40px;
-    background-color:#dce6f7;
+    background-color:rgba(17, 0, 17,0.1);
     width:60%;
 }
 
@@ -118,12 +118,12 @@ iframe {
 p2 {
     text-transform:uppercase;
     font-weight:2px;
-    color:#7da3c4;
+    color:rgb(17, 0, 17);
 }
 
 p3{
     text-transform:uppercase;
-    color:rgba(128,128,128,0.5);
+    color:rgba(128,128,128,0.7);
 }
 
 
