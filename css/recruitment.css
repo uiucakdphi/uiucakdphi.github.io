@@ -18,7 +18,7 @@ section {
 #title .wrapper{
     /*border-style:solid;
     border-color:rgba(51,0,102,0.3);*/
-    background-color:#110011;
+    background-color:#e8dcf7;
     margin:20px;
     padding:20px;
 }
@@ -28,7 +28,6 @@ section {
     margin:0 auto;
     height:350px;
     width:500px;
-    background-color:#110011;
 }
 
 #about {
@@ -43,7 +42,7 @@ section {
 
 #rush .container {
     padding:40px;
-    background-color: rgba(17, 0, 17,0.1);
+    background-color:#e8dcf7;
     width:60%;
 }
 
@@ -63,9 +62,7 @@ p1 {
 }
 
 #info .container {
-    border-color:#110011;
     padding:20px;
-    border-style:dashed;
     width:65%;
 }
 
@@ -76,34 +73,44 @@ p1 {
     padding-left:10%;
 }
 
-#more-info .col-md-4 h1 {
+#more-info .col-sm-6 h1 {
     font-size:20px;
     text-align:center;
-    color:white;
+    color:#330033;
 }
 
-#more-info {
-    background-color:#000;
+#more-info .container{
+    background-color:rgba(128,128,128,0.1);
     margin-bottom:30px;
     text-align: center;
+    padding: 2%;
 }
 
 #more-info p {
-  color: white;
+  color: #000;
 }
 
 #more-info #column-2 a {
-  color: white;
+  color: #000;
   text-decoration: none;
 }
 
 
 #more-info #column-1 {
-    margin-top: 2%;
+    margin-top: 7%;
     padding:20px;
-    border-style:solid;
+    /*border-style:solid;*/
     border-width:2px;
     border-color:gray;
+}
+
+#more-info a {
+  color: #000;
+  text-decoration:none;
+}
+
+#more-info a:hover {
+  color:rgba(128,128,128,0.7);
 }
 
 #more-info img {
@@ -142,9 +149,9 @@ p3{
 
 #interest-form {
   width: 100%;
-  background-color:rgba(128,128,128,0.1);
+  /*background-color:rgba(128,128,128,0.1);*/
   padding: 1%;
-  margin-bottom: 2%;
+  /*margin-bottom: 2%;*/
 }
 
 /* Mobile view */
